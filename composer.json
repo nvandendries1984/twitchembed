@@ -1,0 +1,15 @@
+{
+    "name": "nielsvandendries/twitchembed-plugin",
+    "type": "october-plugin",
+    "description": "Embed your favorite twich channels on your site with ease",
+    "authors": [
+        {
+            "name": "Niels van den Dries",
+            "email": "niels@nvandendries.nl",
+            "role": "Founder"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

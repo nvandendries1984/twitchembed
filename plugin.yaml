@@ -1,0 +1,51 @@
+plugin:
+    name: 'nielsvandendries.twitchembed::lang.plugin.name'
+    description: 'nielsvandendries.twitchembed::lang.plugin.description'
+    author: 'Niels van den Dries'
+    icon: oc-icon-video-camera
+    homepage: 'https://nvandendries.nl'
+permissions:
+    channels:
+        tab: 'nielsvandendries.twitchembed::lang.plugin.name'
+        label: Channels
+    vod:
+        tab: 'nielsvandendries.twitchembed::lang.plugin.name'
+        label: VOD
+    resources:
+        tab: 'nielsvandendries.twitchembed::lang.plugin.name'
+        label: Resources
+    Manager:
+        tab: 'nielsvandendries.twitchembed::lang.plugin.name'
+        label: Manager
+navigation:
+    main-menu-item:
+        label: 'Twitch Embed'
+        url: /
+        icon: icon-twitch
+        permissions:
+            - channels
+        sideMenu:
+            side-menu-item:
+                label: Channels
+                url: nielsvandendries/twitchembed/channels
+                icon: icon-video-camera
+                permissions:
+                    - channels
+            side-menu-item2:
+                label: VOD
+                url: nielsvandendries/twitchembed/vod
+                icon: icon-play-circle
+                permissions:
+                    - vod
+            side-menu-item3:
+                label: Resources
+                url: nielsvandendries/twitchembed/resources
+                icon: icon-stack-overflow
+                permissions:
+                    - resources
+            side-menu-item4:
+                label: 'Settings (Dev)'
+                url: nielsvandendries/twitchembed/settings
+                icon: icon-gears
+                permissions:
+                    - Manager

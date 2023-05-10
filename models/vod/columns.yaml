@@ -1,0 +1,29 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    video:
+        label: video
+        type: text
+    height:
+        label: height
+        type: text
+    width:
+        label: width
+        type: text
+    parent:
+        label: parent
+        type: text
+        invisible: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    title:
+        label: title
+        type: text

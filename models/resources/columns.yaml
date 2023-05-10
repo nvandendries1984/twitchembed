@@ -1,0 +1,47 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    supplier_name:
+        label: Name
+        type: text
+    supplier_url:
+        label: URL
+        type: text
+        invisible: false
+    supplier_info:
+        label: Information
+        type: text
+        invisible: true
+    supplier_files:
+        label: 'Personal Files'
+        type: text
+        invisible: true
+    supplier_username:
+        label: Username
+        type: text
+    supplier_password:
+        label: Password
+        type: text
+        invisible: false
+    supplier_auth:
+        label: 'Auth Type'
+        type: text
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    deleted_at:
+        label: deleted_at
+        type: datetime
+        invisible: true
+    resource_archive:
+        label: Archived
+        type: switch
+        invisible: false

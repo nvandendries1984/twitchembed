@@ -1,0 +1,55 @@
+fields:
+    supplier_name:
+        label: 'Supplier name'
+        span: full
+        required: 1
+        type: text
+    supplier_username:
+        label: 'Supplier username'
+        span: auto
+        required: 1
+        type: text
+    supplier_password:
+        label: 'Supplier password'
+        span: auto
+        required: 0
+        type: text
+        comment: 'If you use a third-party login (google/twitch/facebook), entering a password is not necessary, Please note that this password is stored plaintext for you (so use an SSL certificate on your website)'
+    supplier_auth:
+        label: 'Supplier auth'
+        showSearch: true
+        span: auto
+        required: 1
+        options:
+            Twitch: Twitch
+            Google: Google
+            Facebook: Facebook
+            OpenID: OpenID
+            Other: Other
+        type: dropdown
+    supplier_url:
+        label: 'Supplier url'
+        span: auto
+        required: 1
+        type: text
+    resource_files:
+        label: 'Supplier files'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 0
+        type: fileupload
+    resource_archive:
+        label: Archive
+        span: auto
+        'on': 'Yes'
+        'off': 'No'
+        type: switch
+    supplier_info:
+        label: 'Supplier info'
+        size: large
+        span: full
+        type: richeditor

@@ -1,0 +1,33 @@
+fields:
+    title:
+        label: Title
+        span: full
+        required: 1
+        type: text
+    video:
+        label: 'Video ID'
+        span: auto
+        required: 1
+        type: text
+        comment: 'channel, video, or collection'
+    parent:
+        label: Parent
+        span: auto
+        required: 1
+        type: text
+        comment: '(required) Domain(s) that will be embedding Twitch. You must have one parent key for each domain your site uses.'
+    height:
+        label: Height
+        span: auto
+        default: '480'
+        type: number
+    width:
+        label: Width
+        span: auto
+        default: '854'
+        type: number
+    cliptext:
+        label: ''
+        span: auto
+        path: $/nielsvandendries/twitchembed/partials/_cliptext.htm
+        type: partial

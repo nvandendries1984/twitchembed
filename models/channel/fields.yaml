@@ -1,0 +1,63 @@
+fields:
+    name:
+        label: Name
+        span: full
+        required: 1
+        type: text
+        comment: 'Needs to be unique'
+    channel:
+        label: Channel
+        span: full
+        required: 1
+        type: text
+    width:
+        label: 'Width (px)'
+        span: auto
+        default: '854'
+        type: number
+    height:
+        label: 'Height (px)'
+        span: auto
+        default: '480'
+        type: number
+    parent:
+        label: Parent
+        span: auto
+        placeholder: 'embed.example.com, othersite.example.com'
+        type: text
+        comment: 'Only needed if this page is going to be embedded on other websites'
+    theme:
+        label: Theme
+        span: auto
+        showSearch: true
+        options:
+            light: light
+            dark: dark
+        type: dropdown
+    allowfullscreen:
+        label: 'Allow Full Screen'
+        options:
+            'true': 'Yes'
+            'false': 'No'
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+    muted:
+        label: 'Start Muted'
+        options:
+            'true': 'Yes'
+            'false': 'No'
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+    autoplay:
+        label: 'Automatic Play'
+        options:
+            'true': 'Yes'
+            'false': 'No'
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown

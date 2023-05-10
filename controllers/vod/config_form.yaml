@@ -1,0 +1,11 @@
+name: VOD
+modelClass: NielsVanDenDries\Twitchembed\Models\VOD
+form: $/nielsvandendries/twitchembed/models/vod/fields.yaml
+defaultRedirect: nielsvandendries/twitchembed/vod
+create:
+    redirect: 'nielsvandendries/twitchembed/vod/update/:id'
+    redirectClose: nielsvandendries/twitchembed/vod
+update:
+    redirect: nielsvandendries/twitchembed/vod
+    redirectClose: nielsvandendries/twitchembed/vod
+preview: {  }

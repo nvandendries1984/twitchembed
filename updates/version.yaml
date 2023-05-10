@@ -1,0 +1,6 @@
+1.0.1:
+    - 'Initialize plugin.'
+    - builder_table_create_nielsvandendries_twitchembed_vod.php 
+    - builder_table_create_nielsvandendries_twitchembed_channel.php
+    - builder_table_create_nielsvandendries_twitchembed_resources.php
+    - builder_table_create_nielsvandendries_twitchembed_apisettings.php

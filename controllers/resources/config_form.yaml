@@ -1,0 +1,11 @@
+name: Resources
+modelClass: NielsVanDenDries\Twitchembed\Models\Resources
+form: $/nielsvandendries/twitchembed/models/resources/fields.yaml
+defaultRedirect: nielsvandendries/twitchembed/resources
+create:
+    redirect: 'nielsvandendries/twitchembed/resources/update/:id'
+    redirectClose: nielsvandendries/twitchembed/resources
+update:
+    redirect: nielsvandendries/twitchembed/resources
+    redirectClose: nielsvandendries/twitchembed/resources
+preview: {  }

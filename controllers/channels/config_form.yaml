@@ -1,0 +1,11 @@
+name: Channels
+modelClass: NielsVanDenDries\Twitchembed\Models\Channel
+form: $/nielsvandendries/twitchembed/models/channel/fields.yaml
+defaultRedirect: nielsvandendries/twitchembed/channels
+create:
+    redirect: 'nielsvandendries/twitchembed/channels/update/:id'
+    redirectClose: nielsvandendries/twitchembed/channels
+update:
+    redirect: nielsvandendries/twitchembed/channels
+    redirectClose: nielsvandendries/twitchembed/channels
+preview: {  }

@@ -1,0 +1,34 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    channel:
+        label: Channel
+        type: text
+        searchable: true
+        sortable: true
+    width:
+        label: Width
+        type: text
+        searchable: true
+        sortable: true
+    height:
+        label: Height
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    theme:
+        label: Theme
+        type: text
+    parent:
+        label: Parent
+        type: text
+        sortable: true

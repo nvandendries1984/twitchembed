@@ -1,0 +1,11 @@
+name: Settings
+modelClass: NielsVanDenDries\Twitchembed\Models\Settings
+form: $/nielsvandendries/twitchembed/models/settings/fields.yaml
+defaultRedirect: nielsvandendries/twitchembed/settings
+create:
+    redirect: 'nielsvandendries/twitchembed/settings/update/:id'
+    redirectClose: nielsvandendries/twitchembed/settings
+update:
+    redirect: nielsvandendries/twitchembed/settings
+    redirectClose: nielsvandendries/twitchembed/settings
+preview: {  }

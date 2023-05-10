@@ -1,0 +1,33 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    username:
+        label: username
+        type: text
+        invisible: false
+    password:
+        label: password
+        type: text
+        invisible: true
+    client_id:
+        label: client_id
+        type: text
+        invisible: false
+    client_secret:
+        label: client_secret
+        type: text
+        invisible: true
+    token:
+        label: token
+        type: text
+        invisible: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true

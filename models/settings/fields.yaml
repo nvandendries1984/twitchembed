@@ -1,0 +1,31 @@
+fields:
+    partial2:
+        label: ''
+        span: full
+        path: $/nielsvandendries/twitchembed/partials/_alert.htm
+        type: partial
+    username:
+        label: Username
+        span: auto
+        type: text
+    password:
+        label: Password
+        span: auto
+        type: text
+    client_id:
+        label: 'Client id'
+        span: auto
+        type: text
+    client_secret:
+        label: 'Client secret'
+        span: auto
+        type: text
+    token:
+        label: Token
+        span: auto
+        type: text
+    partial1:
+        label: ''
+        span: auto
+        path: $/nielsvandendries/twitchembed/partials/_apisettings.htm
+        type: partial
